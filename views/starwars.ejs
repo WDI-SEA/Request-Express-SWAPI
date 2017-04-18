@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Star Wars</title>
+</head>
+<body>
+  <% ships.forEach(function(starship, idx) { %>
+      <div>
+        <a href="<%= starship %>">
+          Ship #<%= idx + 1 %>
+        </a>
+      </div>
+  <% })%>
+</body>
+</html>
